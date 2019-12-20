@@ -73,7 +73,7 @@ systemctl reload nginx
 
 `cd /etc/nginx/sites-enabled/`
 
-`sudo ln — s /etc/nginx/sites-available/<имя>`
+`sudo ln -s /etc/nginx/sites-available/<имяФайла> <имяФайла>`
 
 Добавить сайт в /etc/hosts, выполнить systemctl reload nginx
 
